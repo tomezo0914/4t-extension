@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width:460px;
+        overflow-x:hidden;
+      }
+
+      .search-area {
+        float: left;
+        width: 420px;
+        line-height: 1.2;
+      }
+
+      h1.global {
+        margin-bottom: 6px;
+        color: #666;
+        font-size: 0.8em;
+        font-weight: normal;
+      }
+
+      .keyword-box {
+        padding-left: 4px;
+        background: url(img/bg_keyword_first.png) no-repeat 0 0;
+      }
+
+      .keyword {
+        width: 273px;
+        height: 19px;
+        padding: 5px;
+        border: none;
+        background: url(img/bg_keyword.png) repeat-x 0 0;
+      }
+
+      .search-btn {
+        position: absolute;
+        left: 295px;
+      }
+    </style>
+
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/search.js"></script>
+  </head>
+  <body>
+    <div id="search_area" class="search-area">
+      <h1 class="global">海外旅行・国内観光クチコミガイド ホテル・ツアー・航空券の料金比較</h1>
+      <p class="keyword-box">
+        <input type="text" class="keyword" id="keyword" name="keyword">
+        <input type="image" class="search-btn" alt="Search" id="search" src="img/btn_search01.png">
+      </p>
+    </div>
+  </body>
+</html>

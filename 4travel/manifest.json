@@ -1,0 +1,14 @@
+{
+  "name":"4travel",
+  "version":"1.0",
+  "manifest_version":2,
+  "description":"Search travel information in 4travel.",
+  "browser_action":{
+    "default_icon":"img/icon.png",
+    "default_popup":"popup.html"
+  },
+  "permissions":[
+    "tabs"
+  ],
+  "content_security_policy":"script-src 'self'; object-src 'self'"
+}
