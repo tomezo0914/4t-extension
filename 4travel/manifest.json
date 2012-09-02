@@ -1,6 +1,6 @@
 {
-  "name": "4travel",
-  "version": "1.0",
+  "name": "4T-Search",
+  "version": "0.1",
   "manifest_version": 2,
 
   "description": "Search travel information in 4travel.",
